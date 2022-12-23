@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+#title {
+  text-align: center;
+  font-size: 2.15em;
+  text-transform: uppercase;
+  color: #222;
+  letter-spacing: 0.7px;
+  font-weight: 800;
+  margin: 35px;
+  text-shadow: 1.5px 1.5px 1.5px lightgray;
+}
+#search-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 3.5em;
+}
+#user-inp {
+  padding: 7px;
+  font-size: 15px;
+  font-weight: 900;
+  border: 2px solid #ffa726;
+  width: 33%;
+  border-radius: 7px 0 0 7px;
+  margin-right: 0;
+}
+#user-inp:focus {
+  /* box-shadow: 1px 1px 1px gray; */
+  outline: 0.1px solid #f3b964;
+}
+#search-btn {
+  width: 50px;
+  padding: 10px;
+  background-color: #ffa726;
+  color: white;
+  font-size: 13px;
+  border: 2px solid #ffa726;
+  cursor: pointer;
+  border-radius: 0 7px 7px 0;
+  margin-left: -10px;
+}
+#search-btn:hover {
+  background-color: rgb(255, 153, 1);
+}
+#result {
+  width: 100vw;
+}
+#details {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  align-items: center;
+}
+img {
+  width: 32vw;
+  height: 27vw;
+  /* width: 400px;
+  height: 350px; */
+}
+li {
+  list-style: none;
+  padding-bottom: 20px;
+  /* background-color: #f3b964; */
+}
+ul {
+  /* border: 2px solid #f3b964; */
+  /* background-color: #f3b964; */
+  border-radius: 7px;
+  padding: 20px;
+}
+
+#left-box {
+  margin-right: 130px;
+}
+#left-box h2,
+h4 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+#left-box h2 {
+  color: #f77102;
+  font-weight: 900;
+}
+
+#bottom-box {
+  width: 100vw;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#recipe {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  /* word-break: keep-all; */
+  word-wrap: break-word;
+  /* overflow-wrap: break-word; */
+}
+#show-recipe,
+#show-youtube {
+  padding: 10px;
+  background-color: hsl(36, 98%, 50%);
+  border: 2px solid #fc9803;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+#show-recipe:hover,
+#show-youtube:hover {
+  letter-spacing: 2px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+#hide-recipe {
+  width: 20px;
+  color: #fc9803;
+  font-weight: 900;
+  background-color: white;
+  border: #f77102 1px solid;
+}
+#hide-recipe:hover {
+  cursor: pointer;
+}
+#show-recipe {
+  margin-right: 18px;
+}
+#instructions {
+  line-height: 1.3;
+}
+/* 폰트, 미디어쿼리 */
